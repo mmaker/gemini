@@ -19,9 +19,9 @@ use super::TimeProver;
 /// A scalar product proof, containing non-oracle messages, and oracle messages together with their queries and evaluations.
 #[derive(Debug, PartialEq, Eq)]
 pub struct Sumcheck<M: BilinearModule> {
-    /// The non-oracle messages sent througout the protocol.
+    /// The non-oracle messages sent throughout the protocol.
     pub messages: Vec<SumcheckMsg<M::Target>>,
-    /// The challenges sent thropughout the protocol.
+    /// The challenges sent throughout the protocol.
     pub challenges: Vec<M::ScalarField>,
     /// The number of rounds in the protocol.
     pub(crate) rounds: usize,
