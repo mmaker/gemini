@@ -148,14 +148,14 @@ where
     }
 }
 
-/// Stream implementation of foleded polynomial.
+/// Stream implementation of folded polynomial.
 #[derive(Clone, Copy)]
 pub struct FoldedPolynomialStream<'a, F, S>(FoldedPolynomialTree<'a, F, S>, usize)
 where
     S: Iterable,
     F: AdditiveGroup,
     S::Item: Borrow<F>;
-/// Iterator implementation of foleded polynomial.
+/// Iterator implementation of folded polynomial.
 pub struct FoldedPolynomialStreamIter<'a, F, I>
 where
     I: Iterator,
