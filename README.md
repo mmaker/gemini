@@ -3,7 +3,7 @@
 </p>
 
 
-[Gemini](https://ia.cr/2022/420) is elastic proof system system, FFT-free, blazingly fast and space-conscious.
+[Gemini](https://ia.cr/2022/420) is elastic proof system, FFT-free, blazingly fast and space-conscious.
 **This code is **not** meant for production use and has not been audited.**
 
 
@@ -40,7 +40,7 @@ It is also possible to run a purely-linear time prover with the additional optio
 
 ## Elasticity
 
-Space footprint for the prover can be tweaked playing with the following constants:
+Space footprint for the prover can be tweaked by playing with the following constants:
 - `TENSOR_EXPANSION_LOG` (set to 16) which sets the space budget for expanding the tensor products;
 - `MAX_MSM_BUFFER_LOG` (set to 20) the size of the buffers over which Gemini performs multi-scalar multiplication;
 - `SPACE_TIME_THRESHOLD` (set to 22) the threshold for converting the space-prover into the time-prover.
