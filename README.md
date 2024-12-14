@@ -3,7 +3,7 @@
 </p>
 
 
-[Gemini](https://ia.cr/2022/420) is elastic proof system system, FFT-free, blazingly fast and space-conscious.
+[Gemini](https://ia.cr/2022/420) is elastic proof system, FFT-free, blazingly fast and space-conscious.
 **This code is **not** meant for production use and has not been audited.**
 
 
