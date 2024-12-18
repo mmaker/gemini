@@ -186,6 +186,6 @@ fn test_trivial_prover() {
     assert_eq!(prover.f.len(), 1);
     // assert_eq!(prover.f.len()[0], prover.f[0]+ r * prover.f[1]));
 
-    // an subsequent call to the next-message function should return None.
+    // a subsequent call to the next-message function should return None.
     assert!(prover.next_message(None).is_none());
 }
