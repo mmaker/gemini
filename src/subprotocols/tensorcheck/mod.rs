@@ -36,7 +36,7 @@
 //! f(x_0, \dots, x_n) \mapsto f(x, x^2, \dots, x^{2^{n-1}})
 //! $
 //! we are effectively
-//! reducing a multivariate evaluation proof to an univariate tensorcheck.
+//! reducing a multivariate evaluation proof to a univariate tensorcheck.
 //!
 use ark_ec::pairing::Pairing;
 use ark_ff::{Field, AdditiveGroup};
