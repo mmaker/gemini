@@ -1,6 +1,6 @@
 //! Gemini: elastic arguments for R1CS.
 //!
-//! This library provides essentually two arguments:
+//! This library provides essentially two arguments:
 //! - [`snark::Proof`], for non-preprocessing SNARKs.
 //!     It provides a non-interactive succinct argument of knowledge for R1CS
 //!     without indexer, and where the verifier complexity is linear in the circuit size.
