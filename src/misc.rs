@@ -175,7 +175,7 @@ pub fn expand_tensor<F: Field>(elements: &[F]) -> PartialTensor<F> {
 }
 
 /// Polynomial evaluation, assuming that the
-/// coeffients are in big-endian.
+/// coefficients are in big-endian.
 #[inline]
 pub fn evaluate_be<I, F>(polynomial: I, x: &F) -> F
 where
