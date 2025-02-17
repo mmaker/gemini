@@ -29,7 +29,7 @@ impl<'a, E: Pairing, S: Iterable<Item = E::ScalarField>>
         >,
     >
 {
-    /// Create a new (single) entry product arugment
+    /// Create a new (single) entry product argument
     /// using the commiter key `ck` and the stream `v`, whose grand product is `claimed_product`.
     pub fn new_elastic<SG>(
         transcript: &mut Transcript,
