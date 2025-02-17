@@ -33,7 +33,7 @@ where
 {
     /// Return the next prover message (if any).
     fn next_message(&mut self, verifier_message: Option<F>) -> Option<RoundMsg<F>>;
-    /// Peform even/odd folding of the instance using the challenge `challenge`.
+    /// Perform even/odd folding of the instance using the challenge `challenge`.
     fn fold(&mut self, challenge: F);
     // Return the total number of rouds in the protocol.
     fn rounds(&self) -> usize;
